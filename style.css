@@ -1,0 +1,108 @@
+/* RESET */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5F5;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    color: #000;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* TYPOGRAPHY */
+.user-name,
+.likes {
+    font-weight: 600;
+}
+
+.user-location {
+    font-size: .86rem;
+}
+
+/* LAYOUT */
+.container {
+    width: 375px;
+    margin-inline: auto;
+    background-color: #fff;
+}
+
+article {
+    border-top: .1rem solid #00000033;
+}
+
+.logo,
+.user-img {
+    height: 33px;
+    aspect-ratio: 1;
+}
+
+.logo {
+    width: 127px;
+}
+
+.user-img {
+    border-radius: 50%;
+}
+
+.post-img {
+    width: 375px;
+    height: auto;
+}
+
+.icon {
+    width: 22px;
+}
+
+.split {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-details {
+    line-height: 1px;
+}
+
+.split,
+.flex-start,
+.post,
+.icons-box {
+    padding: .75em 0;
+}
+
+.logo,
+.user-img {
+    padding: .75em;
+}
+
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.icons-box {
+    display: flex;
+    gap: .75em;
+}
+
+.icon:first-child,
+.likes,
+.comments {
+    padding-left: .75em;
+}
+
+.icon:hover,
+.icon:focus {
+    opacity: .75;
+}
+
