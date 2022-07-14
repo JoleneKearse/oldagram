@@ -39,6 +39,7 @@ img {
 
 article {
     border-top: .1rem solid #00000033;
+    margin-bottom: .75em;
 }
 
 .logo,
@@ -95,6 +96,11 @@ article {
     gap: .75em;
 }
 
+/* COMPONENTS */
+.icons-box button {
+    background-color: transparent;
+    border: none;
+}
 .icon:first-child,
 .likes,
 .comments {
@@ -103,6 +109,9 @@ article {
 
 .icon:hover,
 .icon:focus {
-    opacity: .75;
+    opacity: .65;
 }
 
+.icons-box button:active {
+    filter: drop-shadow(.5em .5em 10em crimson);
+}
