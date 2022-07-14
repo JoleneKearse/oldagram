@@ -8,7 +8,7 @@ html, body {
 body {
     background-color: #F5F5F5;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: .875rem;
+    font-size: clamp(.875rem, 1104.9474rem + -981.1088vw, 1.2rem);
     font-weight: 400;
     color: #000;
 }
@@ -27,12 +27,16 @@ img {
 }
 
 .user-location {
-    font-size: .86rem;
+    font-size: clamp(.86rem, 108.3684rem + -95.4386vw, 1rem);
 }
 
 /* LAYOUT */
+.container,
+.post-img {
+    width: clamp(375px, 361.8421em + 3.5088vw, 425px);
+}
+
 .container {
-    width: 375px;
     margin-inline: auto;
     background-color: #fff;
 }
@@ -57,7 +61,6 @@ article {
 }
 
 .post-img {
-    width: 375px;
     height: auto;
 }
 
