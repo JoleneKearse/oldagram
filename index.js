@@ -14,6 +14,8 @@ const posts = [
         username: "vincey1853",
         location: "Zundert, Netherlands",
         avatar: "images/avatar-vangogh.jpg",
+        altText:
+            "Van Gogh looking very stoic in a light blue suit with blue background with swirls",
         post: "images/post-vangogh.jpg",
         comment: "just took a few mushrooms lol",
         likes: 21,
@@ -23,6 +25,8 @@ const posts = [
         username: "gus1819",
         location: "Ornans, France",
         avatar: "images/avatar-courbet.jpg",
+        altText:
+            "Courbet dramatically looking straight at you with hands grabbing hair",
         post: "images/post-courbet.jpg",
         comment: "i'm feelin a bit stressed tbh",
         likes: 4,
@@ -33,6 +37,7 @@ const posts = [
         location: "Paris, France",
         avatar: "images/avatar-ducreux.jpg",
         post: "images/post-ducreux.jpg",
+        altText: "Ducreux wearing big hat, holding a cane and pointing at you",
         comment:
             "gm friends! which coin are YOU stacking up today?? post below and WAGMI!",
         likes: 152,
@@ -54,7 +59,7 @@ function renderPosts() {
                 </div>
                 
                 <div class="post">
-                    <img src="${i.post}" class="post-img">
+                    <img src="${i.post}" class="post-img" alt="${i.altText}">
                 </div>
                 
                 <div class="icons-box">
