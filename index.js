@@ -1,12 +1,4 @@
 const main = document.querySelector("main");
-// document.getElementById("likeBtn").addEventListener("click", function () {
-//     const likeIcon = document.getElementById("likeIcon");
-//     if (Image_Id.src.match("images/icon-heart")) {
-//         Image_Id.src = "images/icon-heart-active.png";
-//     } else {
-//         Image_Id.src = "images/icon-heart.png";
-//     }
-// });
 
 const posts = [
     {
