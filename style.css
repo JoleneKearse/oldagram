@@ -38,12 +38,27 @@ img {
 
 .container {
     margin-inline: auto;
+}
+
+header,
+article {
     background-color: #fff;
 }
 
 article {
-    border-top: .1rem solid #00000033;
     margin-bottom: .75em;
+}
+
+article:first-child {
+    border-top: .1rem solid #00000033;
+}
+
+article:not(article:first-child) {
+    margin-top: 2em;
+}
+
+.comments {
+    padding-bottom: 1em;
 }
 
 .logo,
@@ -116,5 +131,6 @@ article {
 }
 
 .icons-box button:active {
+    opacity: 1;
     filter: drop-shadow(.5em .5em 10em crimson);
 }
