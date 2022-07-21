@@ -40,6 +40,12 @@ img {
     margin-inline: auto;
 }
 
+header {
+    position: fixed;
+    width: clamp(375px, 361.8421em + 3.5088vw, 425px);
+    border-bottom: .1rem solid #00000033;
+}
+
 header,
 article {
     background-color: #fff;
@@ -47,10 +53,6 @@ article {
 
 article {
     margin-bottom: .75em;
-}
-
-article:first-child {
-    border-top: .1rem solid #00000033;
 }
 
 article:not(article:first-child) {
@@ -128,9 +130,4 @@ article:not(article:first-child) {
 .icon:hover,
 .icon:focus {
     opacity: .65;
-}
-
-.icons-box button:active {
-    opacity: 1;
-    filter: drop-shadow(.5em .5em 10em crimson);
 }
