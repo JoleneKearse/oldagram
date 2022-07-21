@@ -34,6 +34,48 @@ const posts = [
             "gm friends! which coin are YOU stacking up today?? post below and WAGMI!",
         likes: 152,
     },
+    {
+        name: "Frida Kahlo",
+        username: "fk1907",
+        location: "Mexico City, Mexico",
+        avatar: "images/avatar-frida.jpg",
+        post: "images/post-frida.jpg",
+        altText:
+            "Kahlo with a parrot on her shoulder in front of tropical leaves and a butterfly in the background.",
+        comment: "check out my newest pet!",
+        likes: 308,
+    },
+    {
+        name: "Salvador Dalí",
+        username: "sd1904",
+        location: "Catalonia, Spain",
+        avatar: "images/avatar-dali.jpg",
+        post: "images/post-dali.jpg",
+        altText: "Closeup of Dali with his signature whiskers",
+        comment: "you just show up at my door and want me to help you move?!",
+        likes: 54,
+    },
+    {
+        name: "Pablo Picasso",
+        username: "pp1881",
+        location: "Mougins, France",
+        avatar: "images/avatar-picasso.jpeg",
+        post: "images/post-picasso.jpg",
+        altText: "Strongly angled face painted with broad strokes",
+        comment: "how I feel when I meet a lady's chaperone",
+        likes: 27,
+    },
+    {
+        name: "Norman Rockwell",
+        username: "nr1894",
+        location: "Massachusetts, United States",
+        avatar: "images/avatar-rockwell.jpg",
+        post: "images/post-rockwell.jpg",
+        altText:
+            "Rockwell in front of easel, leaning over to inspect face in mirrow",
+        comment: "too bad a lost my camera! LOL",
+        likes: 9,
+    },
 ];
 
 // render posts to page
