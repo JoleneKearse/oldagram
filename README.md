@@ -1,5 +1,7 @@
 # oldagram
 
+**Visit the [Live Site](https://oldagram-six.vercel.app/)**
+
 <p>
    <img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white" title="HTML5" alt="HTML5">
    <img src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white" title="CSS3" alt="CSS3">
@@ -26,5 +28,3 @@ I added accessibility features like `role` and `aria-label`, made the header fix
 Here's a screenshot:
 
 ![Oldagram in action](https://github.com/JoleneKearse/oldagram/blob/main/screenshots/screenshot.gif)
-
-Check out the [live site](https://jolenekearse.github.io/oldagram/)!
